@@ -25,7 +25,12 @@ public class LoadKits {
 				if(iteml[0].equalsIgnoreCase("book")) {
 					items.add(Books.BookReader(iteml[1]));
 				} else {
-					ItemStack iteme = new ItemStack(Material.getMaterial(Integer.parseInt(iteml[0])), Integer.parseInt(iteml[1]));
+					ItemStack iteme = null;
+					if(iteml[0].matches("[0-9]+")) {
+						iteme = new ItemStack(Material.getMaterial(Integer.parseInt(iteml[0])), Integer.parseInt(iteml[1]));
+					} else {
+						iteme = new ItemStack(Material.getMaterial(iteml[0]), Integer.parseInt(iteml[1]));
+					}
 					ItemMeta meta = iteme.getItemMeta();
 					for(String itemn : iteml) {
 						if(itemn.contains(":")) {
@@ -41,8 +46,8 @@ public class LoadKits {
 					}
 					if(effects.size() != 0) {
 						iteme.addUnsafeEnchantments(effects);
-						items.add(iteme);
 					}
+					items.add(iteme);
 				}
 				plugin.kitsList.put(id.toLowerCase(), new Kits(items, id));
 			}
