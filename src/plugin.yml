@@ -1,6 +1,6 @@
 name: SandkasinnKits
 author: TheNokar
-version: 0.1
+version: 0.3
 softdepend: [Essentials, CommandBook]
 main: net.Plommer.SandkassinnKits.SandkassinnKits
 commands:
