@@ -1,16 +1,13 @@
 name: SandkasinnKits
-author: TheNokar
+author: [TheNokar]
 version: 0.3
 softdepend: [Essentials, CommandBook]
 main: net.Plommer.SandkassinnKits.SandkassinnKits
 commands:
     kits:
-        description: Kits commands
+        description: The default kits command!
         aliases: [kit]
 permissions:
     sandkassinnkits.*:
         default: op
         description: Give players with op everything by default
-    sandkassinnkits.default:
-        default: op
-        description: test
