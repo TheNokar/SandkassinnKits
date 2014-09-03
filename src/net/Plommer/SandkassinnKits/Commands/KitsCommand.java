@@ -9,7 +9,7 @@ public class KitsCommand extends BaseCommand {
 		bePlayer = true;
 		name = " ";
 		argLength = 0;
-		usage = "<kit nafn>";
+		usage = "<Kit name>";
 	}	
 	@Override
 	public boolean execute() {
