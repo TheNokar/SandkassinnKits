@@ -1,12 +1,12 @@
 name: SandkasinnKits
 author: [TheNokar]
 version: 0.3
-softdepend: [Essentials, CommandBook]
+loadbefore: [CommandBook, WorldEdit, WorldGuard]
 main: net.Plommer.SandkassinnKits.SandkassinnKits
 commands:
-    kits:
+    kit:
         description: The default kits command!
-        aliases: [kit]
+        aliases: [kits]
 permissions:
     sandkassinnkits.*:
         default: op

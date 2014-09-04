@@ -24,7 +24,7 @@ public class SandkassinnKits extends JavaPlugin {
     
 	public void onEnable() {
 		//Some stuff
-		getCommand("kits").setExecutor(new CommandHandler(this));
+		getCommand("kit").setExecutor(new CommandHandler(this));
 		new Books(this);
 		registerCommands();
 		getServer().getPluginManager().registerEvents(new JoinEvent(this), this);

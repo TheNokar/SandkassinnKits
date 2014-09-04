@@ -8,7 +8,7 @@ kits:
         - 277 1 dig_speed:3 name:&eDemanta_Skofla
         - 284 1 durability:3 name:&eVerndunar_Skoflan
         #- book <nafn á texta skjalinu með bókini>
-        - book book
+        #- book book
 msg:
     kitsuccsess: '&eÞér hefur verið fært kittið: {kit}'
     kiterror: '&cÞetta kit er ekki til!'

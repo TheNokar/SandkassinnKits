@@ -68,7 +68,6 @@ public class Utils {
 			a = test.toString();
 		} catch (CharacterCodingException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 		return a.replaceAll("&", new Character((char) 167).toString());
 	}
