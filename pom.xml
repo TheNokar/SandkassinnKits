@@ -38,6 +38,10 @@
         <id>bukkit-repo</id>
         <url>http://repo.bukkit.org/content/groups/public/</url>
       </repository>
+      <repository>
+        <id>spigot-repo</id>
+        <url>http://repo.md-5.net/content/groups/public/</url>
+      </repository>
   </repositories>
   <dependencies>
   	<dependency>
@@ -45,6 +49,11 @@
   		<artifactId>bukkit</artifactId>
   		<scope>provided</scope>
   		<version>1.7.9-R0.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.spigotmc</groupId>
+  		<artifactId>spigot</artifactId>
+  		<version>1.7.9-R0.3-SNAPSHOT</version>
   	</dependency>
   </dependencies>
   <properties>
