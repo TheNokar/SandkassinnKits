@@ -41,11 +41,8 @@
       <repository>
         <id>spigot-repo</id>
         <url>http://repo.md-5.net/content/groups/public/</url>
-<<<<<<< HEAD
       </repository> 
-=======
       </repository>
->>>>>>> faecd873a61a6f8be517cb5d2d24f5e6fc7d3bfc
   </repositories>
   <dependencies>
   	<dependency>
@@ -55,15 +52,12 @@
   		<version>1.7.9-R0.2</version>
   	</dependency>
   	<dependency>
-<<<<<<< HEAD
 	    <groupId>org.spigotmc</groupId>
 	    <artifactId>spigot</artifactId>
 	    <version>1.7.9-R0.3-SNAPSHOT</version>
-=======
   		<groupId>org.spigotmc</groupId>
   		<artifactId>spigot</artifactId>
   		<version>1.7.9-R0.3-SNAPSHOT</version>
->>>>>>> faecd873a61a6f8be517cb5d2d24f5e6fc7d3bfc
   	</dependency>
   </dependencies>
   <properties>
