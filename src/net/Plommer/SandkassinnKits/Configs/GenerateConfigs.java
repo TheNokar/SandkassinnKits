@@ -23,7 +23,8 @@ public class GenerateConfigs {
 	
 	public void reloadCustomConfig() {
 	    if (customConfigFile == null) {
-	    customConfigFile = new File(plugin.getDataFolder(), "config.yml");
+		    customConfigFile = new File(plugin.getDataFolder(), "config.yml");
+	    	customConfigFile.getParentFile().mkdir();
 	    }
 	    customConfig = YamlConfiguration.loadConfiguration(customConfigFile);
 	 
